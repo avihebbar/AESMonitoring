@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.textfield.TextInputLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/textFieldContainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Sample text hint"
+    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+    android:layout_margin="@dimen/stdMargin">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:inputType="textMultiLine"
+        android:maxLines="3"
+        />
+
+</com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+

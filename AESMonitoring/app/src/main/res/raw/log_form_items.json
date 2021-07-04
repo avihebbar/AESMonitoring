@@ -1,0 +1,128 @@
+[
+  [
+    {
+      "name": "status",
+      "display_text": "Status",
+      "type": "SELECT",
+      "values": [
+        "RUNNING",
+        "ERROR"
+      ],
+      "required": true
+    },
+    {
+      "name": "shutdown_reason",
+      "display_text": "Shutdown Reason",
+      "type": "TEXT",
+      "required": true
+    },
+    {
+      "name": "pump_1",
+      "display_text": "Pump 1",
+      "type": "SELECT",
+      "values": [
+        "RUNNING",
+        "STAND_BY"
+      ],
+      "required": true
+    },
+    {
+      "name": "pump_2",
+      "display_text": "Pump 2",
+      "type": "SELECT",
+      "values": [
+        "RUNNING",
+        "STAND_BY"
+      ],
+      "required": true
+    },
+    {
+      "name": "control_panel_error_message",
+      "display_text": "Control Panel Message",
+      "type": "TEXT",
+      "required": true
+    }
+  ],
+  [
+    {
+      "name": "leakages",
+      "display_text": "Any leakages observed",
+      "type": "SELECT",
+      "values": [
+        "YES",
+        "NO"
+      ],
+      "required": true
+    },
+    {
+      "name": "flow_meter_reading",
+      "display_text": "Flow Meter Reading",
+      "type": "INT",
+      "required": true
+    },
+    {
+      "name": "sludge_volume",
+      "display_text": "Sludge Volume",
+      "type": "INT",
+      "required": true
+    },
+    {
+      "name": "inlet_electricity_supply",
+      "display_text": "Inlet Electricity Supply",
+      "type": "INT",
+      "required": true
+    },
+    {
+      "name": "sludge_photo",
+      "display_text": "Sludge Photo",
+      "type": "IMAGE",
+      "required": true
+    }
+  ],
+  [
+    {
+      "name": "treated_water_photo",
+      "display_text": "Treated Water Photo",
+      "type": "IMAGE",
+      "required": true
+    },
+    {
+      "name": "vacuum_pressure",
+      "display_text": "Vacuum Pressure",
+      "type": "INT",
+      "required": true
+    },
+    {
+      "name": "bar_screen_status",
+      "display_text": "Bar Screen Status",
+      "type": "TEXT",
+      "required": true
+    },
+    {
+      "name": "sludge_drying_bed_status",
+      "display_text": "Sludge Drying Bed Status",
+      "type": "TEXT",
+      "required": true
+    }
+  ],
+  [
+    {
+      "name": "area_cleanliness",
+      "display_text": "Area Cleanliness",
+      "type": "TEXT",
+      "required": true
+    },
+    {
+      "name": "area_photo",
+      "display_text": "Area Photo",
+      "type": "IMAGE",
+      "hint": "Capture Image of the surrounding area",
+      "required": true
+    },
+    {
+      "name": "other_issues",
+      "display_text": "Other Issues",
+      "type": "LARGE_TEXT"
+    }
+  ]
+]

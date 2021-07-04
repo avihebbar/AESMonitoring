@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "name": "MCF HQ",
+    "location": {
+      "lat": 12.8557438,
+      "lon": 77.2824089,
+      "addressText": "Level-11, UB Towers, UB City No.24, Vittal Mallya Road, Bengaluru, Karnataka 560001"
+    },
+    "noOfPumps": 2,
+    "pmIntervalInMonths": 3,
+    "siteInchargeId" : "someguy"
+  },
+  {
+    "id": "2",
+    "name": "Vidhanasoudha",
+    "location": {
+      "lat": 12.9796361,
+      "lon": 77.5884978,
+      "addressText": "Ambedkar Veedhi, Sampangi Rama Nagar, Bengaluru, Karnataka 560001"
+    },
+    "noOfPumps": 2,
+    "pmIntervalInMonths": 3,
+    "siteInchargeId" : "someguy"
+  }
+]
